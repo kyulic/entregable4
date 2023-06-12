@@ -19,6 +19,7 @@
     border-radius: 0.7em;
     width: 100%;
     max-width: 350px;
+    position: absolute;
    
 }
 .form_close{
@@ -73,23 +74,25 @@
 }
 
 .form_x{
-    position: absolute;
+    position: relative;
     font-size: 1.4rem;
-    top: 5em;  
-    
-    right: 23em;
+    top: -3em;    
+    right: -13em;
     cursor: pointer;
 
 }
-.form_x:hover{
-    transform: scale(1.5);
-}
+/* .form_x:hover{
+    transform: scale(1.3);
+    top: -3em;    
+    right: -13em;
+} */
 
 @media(max-width:800px){
     .form_x{
         
-        top: 7rem;          
-        right: 5rem;     
+        
+        top: -3em;          
+        right: -13em;     
     
     }
 
@@ -99,7 +102,8 @@
     }
 
     .form{
-        line-height: 1.8em;
+        line-height: 1.8em;     
+            
         
     }
   
