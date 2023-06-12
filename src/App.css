@@ -1,0 +1,65 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;1,100;1,300;1,400;1,700&display=swap');
+*{
+    font-family: 'Lato', sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+button{
+    font-family: 'Lato', sans-serif;
+}
+
+:root{
+    --color-fondo:#1A70F3 ;
+    --color-tex:#F5EDEB ;
+    --color-span:#1A308A ;
+}
+.app{
+    background-color: var(--color-fondo);
+    min-height: 100vh;
+    
+}
+
+
+.users_card{
+    
+    display:grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px,2fr));
+    gap: 1em;
+    margin: 0 auto;
+    padding: 2em;
+
+
+}
+
+.form_title_init{
+    text-align: center;
+    color: #fff;
+    margin-bottom: 1em;
+    font-weight: 700;
+    text-transform: uppercase;
+    padding-top: 1em;
+}
+
+
+.btn_form{
+    border: none;
+    width: 8em;
+    height: 2.5em;
+    font-size: 1rem;
+    border-radius: 0.5em;
+    cursor: pointer;
+    font-weight: bold;
+    background-color: var( --color-btn) ;
+    color: #F5EDEB;
+    }
+
+    .btn_form:hover{
+        background-color:#B4C5FA ;
+        color: #053135;
+
+    }
+.btn_edit{
+    text-align: right;
+    margin-right: 5em;
+}

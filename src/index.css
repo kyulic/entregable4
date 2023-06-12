@@ -1,0 +1,84 @@
+
+:root{
+    --color-fondo:#1A70F3 ;
+    --color-tex:#F5EDEB ;
+    --color-span:#1A308A ;
+    --color-btn:#ca040e 
+    ; 
+}
+.users_article{
+    width: 100%;
+    max-width: 350px;
+    height: 350px;
+    
+    font-size: 1.1rem;
+    background-color: var(--color-tex);
+    box-shadow: 10px 5px 5px black;
+    border-radius: 0.5em;
+    
+}
+
+.h2_card{
+    text-align: center;
+    margin: 1.3em 0 0.3em 0; 
+    /* lo pone en mayuscula */
+    text-transform: uppercase;   
+}
+ul{
+    list-style: none;
+    
+    margin: 1em 0 1em 0;
+}
+
+.list_card{
+    margin-left: 1em;
+    font-size: 1.2rem;
+    line-height: 1.8em;  
+
+}
+
+.span_list{
+    font-weight: bold;
+}
+
+.span_atrib{
+    color: var(--color-span);
+}
+
+.line{
+    border-top: 1px solid #000001;
+    height: 2px;
+    max-width: 90%;
+    padding: 0;
+    margin: 20px auto 0 auto;
+
+}
+
+.button{
+    text-align: right;
+    margin: 1em 1em 0 0;
+    
+}
+.delete{
+    background-color: var(--color-btn);
+    cursor: pointer;
+    width: 40px;
+    height: 30px;
+    color: var(--color-tex);
+    border: none;
+    border-radius: 0.2rem;
+    margin-right: 0.5rem;
+    
+
+}
+
+.edit{
+    background-color: var(--color-btn);
+    cursor: pointer;
+    width: 40px;
+    height: 30px;
+    color: var(--color-tex);
+    border: none;
+    border-radius: 0.2rem;
+
+}
