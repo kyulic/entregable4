@@ -17,7 +17,10 @@ button{
 .app{
     background-color: var(--color-fondo);
     min-height: 100vh;
-    
+    /* display: flex;
+    flex-direction: column; */
+    position: relative;
+    padding-bottom: 3em;
 }
 
 

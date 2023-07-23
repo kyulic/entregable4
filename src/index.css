@@ -92,6 +92,10 @@ ul{
     text-align: center;
     padding-top: 1.5rem;
     box-shadow: 1px 5px 5px black;
+    margin-top: auto;
+    position: absolute;
+    bottom: 0;
+    
 
     
    }

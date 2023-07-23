@@ -42,7 +42,8 @@ const useFetch = (baseUrl) => {
 
     const updateRegister=(path,id,data)=>{
         const url=`${baseUrl}${path}/${id}/`
-        axios.patch(url,data)
+        //axios.patch(url,data)
+        axios.put(url,data)
         .then(res=>{
             console.log(res.data)
             const infoApiUpdate=infoApi.map(element=>{

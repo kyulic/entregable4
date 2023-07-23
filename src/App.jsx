@@ -11,7 +11,8 @@ function App() {
   const [isCloseForm, setIsCloseForm] = useState(true)
   const [updateInfo, setUpdateInfo] = useState()
   
-  const baseUrl = 'https://users-crud.academlo.tech/'
+  const baseUrl='https://user-crud-j4vz.onrender.com/api/v1/'
+  //const baseUrl = 'https://users-crud.academlo.tech/'
   const [users,
     getAllUser,
     createNewUser,
@@ -21,7 +22,8 @@ function App() {
 
   useEffect(()=>{
     getAllUser('/users')
-  },[])
+    
+  } ,[])
   console.log(users)
 const handleOpenForm=()=>{
   setIsCloseForm(false)
@@ -59,8 +61,8 @@ const handleOpenForm=()=>{
         }
       </div>
       
-      <dir className='repositorio'>Karla Yulieth Caquimbo U: <a className='link_repositorio' 
-       href="https://github.com/kyulic/entregable4">Repositorio</a></dir>
+      <footer className='repositorio'>Karla Yulieth Caquimbo U: <a className='link_repositorio' 
+       href="https://github.com/kyulic/entregable4">Repositorio</a></footer>
       
       
       </div>
